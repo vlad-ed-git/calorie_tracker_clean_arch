@@ -3,21 +3,15 @@ package com.dev_vlad.calorietracker
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Surface
-import androidx.compose.material.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.dev_vlad.calorietracker.ui.theme.calorieTrackerTheme
+import com.dev_vlad.core_ui.theme.coreTheme
+import com.dev_vlad.onboarding_presentation.welcome_screen.welcomeScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            calorieTrackerTheme {
-
+            coreTheme {
+                welcomeScreen()
             }
         }
     }

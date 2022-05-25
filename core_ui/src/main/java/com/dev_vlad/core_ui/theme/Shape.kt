@@ -1,4 +1,4 @@
-package com.dev_vlad.calorietracker.ui.theme
+package com.dev_vlad.core_ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes
